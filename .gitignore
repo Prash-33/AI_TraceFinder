@@ -1,0 +1,32 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Dataset files (images, TIFF, PNG, JPG)
+Data/**/*.tif
+Data/**/*.tiff
+Data/**/*.jpg
+Data/**/*.jpeg
+Data/**/*.png
+
+# Metadata or large CSVs you don’t want to track
+metadata_features.csv
+metadata_features(1).csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
